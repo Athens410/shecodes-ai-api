@@ -23,4 +23,4 @@ console.log("Processing");
 
 let buttonElement = document.querySelector("#special-button");
 
-
+buttonElement.addEventListener("click")
