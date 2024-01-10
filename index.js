@@ -9,4 +9,4 @@ alert("hey")
 let buttonElement = document.querySelector("#special-button");
 buttonElement.addEventListener("click", handleClick);
 
-buttonElement.setAttribute("id", "warning");
+buttonElement.getAttribute("id");
