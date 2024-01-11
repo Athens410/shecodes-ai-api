@@ -1,7 +1,7 @@
 function handleClick(){
 
 
-heading.style.color = "red";
+heading.style.color = "green";
 
 }
 
