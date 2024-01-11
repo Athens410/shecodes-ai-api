@@ -1,11 +1,11 @@
 
 
-
+function newWorld(response)
 
 
 let button = document.querySelector("#special-button");
 
-button.addEventListener("click")
+button.addEventListener("click", newWorld);
 
 
 
