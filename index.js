@@ -1,7 +1,7 @@
 function handleClick(){
 
 let heading = document.querySelector("h1");
-heading.style.display = "none";
+heading.classList.add("hidden")
 
 }
 
