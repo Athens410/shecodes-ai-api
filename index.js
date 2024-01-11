@@ -9,6 +9,7 @@ alert("hey")
 let buttonElement = document.querySelector("#special-button");
 buttonElement.addEventListener("click", handleClick);
 
-buttonElement.getAttribute("id");
+buttonElement.setAttribute("id", "gopop");
+
 
 console.log("Script loaded"); 
