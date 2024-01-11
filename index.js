@@ -1,5 +1,5 @@
 function handleClick(){
-console.log("Button clicked");
+
 let heading = document.querySelector("h1");
 heading.classList.add("highlight");
 
