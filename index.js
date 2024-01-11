@@ -12,4 +12,6 @@ buttonElement.addEventListener("click", handleClick);
 buttonElement.style.background = "blue";
 
 
-let heading = document.querySelector("h1")
+let heading = document.querySelector("h1");
+
+heading.style.color = "red"
