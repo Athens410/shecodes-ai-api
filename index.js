@@ -9,4 +9,4 @@ alert("hey")
 let buttonElement = document.querySelector("#special-button");
 buttonElement.addEventListener("click", handleClick);
 
-buttonElement.style.background = "blue"
+buttonElement.style.background = "blue";
