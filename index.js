@@ -1,7 +1,7 @@
 function handleClick(){
 
 alert("hey")
-
+heading.style.color = "red";
 
 }
 
@@ -14,4 +14,3 @@ buttonElement.style.background = "blue";
 
 let heading = document.querySelector("h1");
 
-heading.style.color = "red"
