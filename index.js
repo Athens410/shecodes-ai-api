@@ -7,7 +7,10 @@ let context = "please provide a simple answer";
 let prompt = "who is the first female president";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-axios.get(apiUrl).then(showResults);
+let buttonElement = document.querySelector("#special-button");
+buttonElement.addEventListener("click", function() {
+    axios.get(apiUrl).then(showResults);
+});
 
 
 new Typewriter("h1", {
