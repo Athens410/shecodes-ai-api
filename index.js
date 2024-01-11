@@ -1,6 +1,6 @@
 function handleClick(){
 
-alert("hey")
+
 heading.style.color = "red";
 
 }
