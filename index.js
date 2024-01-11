@@ -4,7 +4,7 @@
 
 
 new Typewriter("h1", {
-  strings: ['Hello', 'World'],
+  strings: ['HelloWorld,
   autoStart: true,
 });
 
