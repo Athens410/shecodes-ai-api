@@ -1,7 +1,7 @@
 function handleClick(){
 
 let heading = document.querySelector("h1");
-heading.classList.toggle("hidden")
+heading.add("highlight");
 
 }
 
