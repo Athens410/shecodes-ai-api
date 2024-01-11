@@ -1,9 +1,17 @@
 
 
-function newWorld(response)
+function newWorld(response){
+
+
+
+}
 
 
 let button = document.querySelector("#special-button");
+
+let context =  "please provide a simple answer";
+
+let prompt = "who is the first female president";
 
 button.addEventListener("click", newWorld);
 
